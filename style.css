@@ -1,0 +1,47 @@
+/* navber-desing*/
+
+.navber{
+    width: 1140px;
+    height: 70px;
+    margin: 0% auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ .display-flex{
+    display: flex;
+ 
+ }
+ .nav-items{
+    list-style:none;
+    
+ }
+ .nav-link{
+    text-decoration: none;
+ }
+ .nav-links{
+    gap: 20px;
+ }
+ /* description-desing */
+ .description{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 120px;
+    align-items: center;
+    
+    
+ }
+ .d-title{
+    font-size: 3.20rem ;
+ }
+ .fresh{
+    color: chocolate;
+ }
+ .caption{
+    color: lightgrey;
+    font-size:1.86em;
+    
+ }
+
