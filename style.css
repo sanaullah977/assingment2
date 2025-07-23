@@ -41,7 +41,67 @@
  }
  .caption{
     color: lightgrey;
-    font-size:1.86em;
+    font-size:1.86rem;
     
  }
 
+/* product-desing */
+.product{
+    width: 1140px;
+    height: 1185px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+ .p-caption{
+    color: lightgrey;
+    font-size:1.50rem;
+    
+
+ }
+ .p-paragraph{
+    text-align: center;
+ }
+ .btn{
+   
+   background-color: rgba(233, 90, 8, 1);
+   padding: 15px 80px;
+   font-size: 1.08em;
+  
+   
+ }
+.card{
+  text-align: center;
+}
+.lily{
+    font-size: 1.15em;
+}
+.p-card{
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    /* column-gap: 10px; */
+
+    /* gap: 30px; */
+    height: auto;
+    justify-content: center;
+}
+/* Flower & Plants Lover */
+
+.plants-lover{
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+   margin-top: 210px;
+   gap: 20px;
+}
+.l-caption{
+   width: 540px;
+   
+}
+.f-caption{
+   font-size: 3.08rem;
+}
