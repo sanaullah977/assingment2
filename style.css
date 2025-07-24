@@ -124,31 +124,49 @@
 .search-container{
    background-image: url(assets/news-letter-bg.png);
    background-size: cover;
-   background-repeat: 0;
+   background-repeat: no-repeat;
    width: 100%;
    height: 535px;
    margin: 0 auto;
    justify-content: center;
    margin-top: 120px;
 }
+.search{
+   justify-content: center;
+   margin: 0 auto;
+   text-align: center;
+   gap: 50px;
+}
 .suscrib-btn{
    padding: 5px;
    background-color: rgba(233, 90, 8, 1);
-   border: 0;
-   color: aliceblue;
+   border: none;
+   text-align: center;
    width: 180px;
    height: 50px;
+   cursor: pointer;
+}
+.suscrib-btn:hover{
+   background-color: rgb(207, 80, 34);
+   color: rgb(39, 28, 28);
 }
 .email-section{
    margin: 0 auto;
    justify-content: center;
-   align-items: center;
+   text-align: center;
+   color: aliceblue;
+   font-size: 50px;
 
 }
 .email-bar{
    padding: 5px;
    height: 40px;
-   width: 620px;
- 
+   width: 550px;
+   
    border: 0;
+}
+.email-input{
+   justify-content: center;
+   align-items: center;
+   
 }
