@@ -15,12 +15,22 @@
  .nav-items{
     list-style:none;
     
+    
  }
  .nav-link{
     text-decoration: none;
+    color: lightslategray;
  }
  .nav-links{
     gap: 20px;
+    justify-content: center;
+
+ }
+ .nav-2h{
+   text-decoration: none;
+   color: black;
+   font-size: 1.2rem;
+   margin: 0 auto;
  }
  /* description-desing */
  .description{
@@ -104,4 +114,41 @@
 }
 .f-caption{
    font-size: 3.08rem;
+}
+.l-caption ul{
+   gap: 15px;
+}
+
+/* search-bar container */
+
+.search-container{
+   background-image: url(assets/news-letter-bg.png);
+   background-size: cover;
+   background-repeat: 0;
+   width: 100%;
+   height: 535px;
+   margin: 0 auto;
+   justify-content: center;
+   margin-top: 120px;
+}
+.suscrib-btn{
+   padding: 5px;
+   background-color: rgba(233, 90, 8, 1);
+   border: 0;
+   color: aliceblue;
+   width: 180px;
+   height: 50px;
+}
+.email-section{
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+
+}
+.email-bar{
+   padding: 5px;
+   height: 40px;
+   width: 620px;
+ 
+   border: 0;
 }
