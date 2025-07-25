@@ -333,7 +333,7 @@
   .navber {
     width: 100%;
 
-    flex-direction: column;
+    
     height: auto;
   }
   .caption,
@@ -422,6 +422,7 @@
   .deal-container-master{
     display: flex;
     flex-direction: column;
+    
   }
   .deals-container {
     display: flex;
@@ -430,8 +431,22 @@
     justify-content: center;
     width: 100%;
     height: auto;
+    margin-left: 0;
   }
   .deals-container-big{
+    width: 400px;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 0 auto;
+    margin-top: 20px;
 
   }
+  .respons{
+    display: none;
+  }
+  .display-flex-nav{
+    display: flex;
+    justify-content: space-between;
+  }
+ 
 }
